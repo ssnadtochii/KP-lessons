@@ -15,6 +15,14 @@ h1 {
   font-size: 3rem;
 }
 
+h2 {
+  font-size: 2.25rem;
+}
+
+p {
+  font-weight: 300;
+}
+
 .hero {
   background: #23424a;
   color: white;
@@ -61,3 +69,32 @@ h1 {
 .btn-cta:active {
   transform: translateY(-1px);
 }
+
+.row {
+  display: flex;
+  /* gap: 1rem; */
+  padding: 5rem 0;
+}
+
+.col {
+  width: 100%;
+  text-align: center;
+}
+
+.col:not(:first-child) {
+  margin-left: 2rem;
+}
+
+/* .col + .col {
+  background-color: aliceblue;
+  margin-left: 2rem;
+} */
+
+.turquoise-bg {
+  background-color: #136C72;
+  color: white;
+}
+
+.three-col h2 {
+  color: #87629A;
+} 
