@@ -48,14 +48,14 @@ p {
     background-color: #F3EED9;
 }
 
-.hero-text {
+.hero__text {
     width: 50%;
     margin: 0 auto;
     padding: 22rem 0;
     text-align: center;
 }
 
-.hero-text p {
+.hero__text p {
     text-transform: uppercase;
     font-weight: 300;
     font-size: 1.8rem;
@@ -63,6 +63,7 @@ p {
 }
 
 .container {
+    width: 85%;
     max-width: 1140px;
     margin: 0 auto;
 }
@@ -102,4 +103,22 @@ p {
 .image-left {
     background-color: #824936;
     padding: 10em 0;
+}
+
+@media (max-width: 800px) {
+    h1 {
+        font-size: 4rem;
+    }
+
+    .row {
+        display: block;
+    }
+
+    .col {
+        width: 100%;
+    }
+
+    .hero__text p {
+        font-size: 1.6rem;
+    }
 }

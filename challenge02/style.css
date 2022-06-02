@@ -42,13 +42,11 @@ p {
   display: flex;
   justify-content: space-between;
   flex-grow: 1;
-  border: 2px solid oldlace;
 }
 
 .logo {
   align-self: center;
   text-decoration: none;
-  border: 2px solid red;
 }
 
 .nav__list {
@@ -58,8 +56,6 @@ p {
   display: flex;
   gap: 1.5em;
   align-items: center;
-
-  border: 2px solid lightsalmon;
 }
 
 .nav__list--primary {
@@ -79,7 +75,6 @@ p {
 }
 
 .nav__link:hover {
-  /* border-top: 1px solid #ffffff; */
   border-bottom: 1px solid #fff;
   padding: 6px 0;
 }
@@ -106,7 +101,6 @@ p {
   width: 90%;
   max-width: 1140px;
   margin: 0 auto;
-  /* border: 1px solid pink; */
 }
 
 .hero {
@@ -120,13 +114,11 @@ p {
 
 .hero__text {
   width: 62%;
-  /* border: 1px solid aliceblue; */
 }
 
 .hero__img {
   width: 32%;
   align-self: flex-start;
-  /* border: 1px solid #38CFD9; */
 }
 
 .hero__text p {
@@ -180,4 +172,21 @@ p {
   background-color: #136C72;
 
   padding: 1em;
+}
+
+@media (max-width: 800px) {
+  .row {
+    display: block;
+  }
+
+  .hero__text,
+  .hero__img,
+  .primary-content,
+  .sidebar {
+    width: 100%;
+  }
+
+  .hero__img {
+    margin-top: 5rem;
+  }
 }
